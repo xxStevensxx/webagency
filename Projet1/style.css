@@ -1,3 +1,9 @@
+/* balise sans class */
+h2{
+  font-size: 40px;
+}
+/* ***************** */
+
 .menu{
   display: grid;
   grid-template-columns: 50% 50%;
@@ -17,8 +23,95 @@
   margin: 3%;
 }
 
-#slide a img{
+.slider{
+/* la largeur de cette div est egale a la taille de ma photo et le overflow condense toutes les images dans une seul */
+width: 100%;
+overflow: hidden;
+}
+
+.slides{
+  /* mon ecran est egal au px fois le nombre de photo dans mon cas 2 */
+  width: calc(1600px*2);
+  animation: diapoImg 10s infinite;
+}
+
+.slide{
+  /* les images se mettrons a gauche et en ligne si la place dans l'ecran est suffisante */
+  float: left;
+}
+
+@keyframes diapoImg {
+  0%{
+    transform: translateX(0);
+  }
+  50%{
+    transform: translateX(-1600px);
+  }
+  100%{
+    transform: translateX(0px);
+  }
+}
+
+.separateur{
+   width: 75%;
+}
+
+.separateurInterne{
+  width: 10%;
+}
+/* titre des 3 sections */
+.services{
+  text-align: center;
+}
+
+.projets{
+    text-align: center;
+}
+/* ******************** */
+
+.text{
+  text-align: center;
+}
+
+.contenuService{
+  padding: 3%;
+  display: grid;
+  grid-template-columns: 2;
+}
+
+.contenuServicesGauche{
+  grid-column-start: 1;
+}
+
+.contenuServicesDroit{
+  grid-column-start: 2;
+
+}
+
+#menuProjets {
+  padding-top: 3%;
+}
+
+#menuProjets li{
+  text-align: center;
   display: inline-block;
-  width: 100%;
-  height: 100%;
+}
+
+#menuProjets li:hover{
+  transition: 0.5s;
+  background-color: turquoise;
+}
+
+#travauxEffectue{
+  padding: 3%;
+}
+
+.travaux{
+  width: 25%;
+  float: left;
+}
+
+.travaux img{
+  margin: 5%;
+  width: 75%;
 }
