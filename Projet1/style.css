@@ -1,0 +1,24 @@
+.menu{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+#logoEntreprise{
+  grid-column-start: 1;
+  margin: 3%;
+}
+
+#nav{
+  grid-column-start: 2;
+}
+
+#sectionMenu li{
+  display: inline-block;
+  margin: 3%;
+}
+
+#slide a img{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
