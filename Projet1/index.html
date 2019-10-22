@@ -3,15 +3,23 @@
   <head>
     <meta charset="utf-8">
     <title>Webagency</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   </head>
-  <link rel="stylesheet" href="style.css">
   <body>
     <div class="menu">
       <!-- image webagency -->
     <a><img id="logoEntreprise" src="webagency_images/images/logo.png" alt="logo d'entreprise"></a>
     <!-- fin image -->
+
     <!-- Barre de navigation du menu -->
     <div id="nav">
+<!-- barre superieur du menu au hover de la souris -->
+      <div class="barreSuperieurMenu"></div>
+      <div class="barreSuperieurMenu"></div>
+      <div class="barreSuperieurMenu"></div>
+      <div class="barreSuperieurMenu"></div>
+      
     <nav id="sectionMenu">
       <ul>
         <li>Acceuil</li>
@@ -26,10 +34,16 @@
     <!-- fin menu -->
 
   <!-- Slider -->
-  <div class="slider">
-    <div class="slides">
+  <div id="slider">
+    <div id="slides">
       <div class ="slide"><img src="webagency_images/images/slider/bg1.jpg" alt=""></div>
       <div class ="slide"><img src="webagency_images/images/slider/bg2.jpg" alt=""></div>
+    </div>
+    <!-- text introduction sur le slider -->
+    <div id="intro">
+      <h2><span id="bleu">WEBAGENCY</span> : L'AGENCE DE TOUS<br> VOS PROJETS !</h2>
+      <p>Vous avez un projet web ? la Webagency vous aide à le réaliser !</p>
+      <button id="bouttonInfo" type="button" name="infos">Plus d'infos</button>
     </div>
   </div>
   <!-- fin de slider -->
@@ -89,14 +103,79 @@
 
     <!-- div.images des travaux effectuee -->
     <div id="travauxEffectue">
-      <div class="travaux"><img src="webagency_images/portfolio/01.jpg" alt=""><div class="calque"></div></div>
-      <div class="travaux"><img src="webagency_images/portfolio/02.jpg" alt=""><div class="calque"></div></div>
-      <div class="travaux"><img src="webagency_images/portfolio/03.jpg" alt=""><div class="calque"></div></div>
-      <div class="travaux"><img src="webagency_images/portfolio/04.jpg" alt=""><div class="calque"></div></div>
-      <div class="travaux"><img src="webagency_images/portfolio/05.jpg" alt=""><div class="calque"></div></div>
-      <div class="travaux"><img src="webagency_images/portfolio/06.jpg" alt=""><div class="calque"></div></div>
-      <div class="travaux"><img src="webagency_images/portfolio/07.jpg" alt=""><div class="calque"></div></div>
-      <div class="travaux"><img src="webagency_images/portfolio/08.jpg" alt=""><div class="calque"></div></div>
+
+      <div class="travaux">
+        <img src="webagency_images/portfolio/01.jpg" alt="">
+        <div class="calque">
+          <p class="item">
+            <span class="titre">Portfolio item 1<br></span>Lorem ipsum dolor sit.
+          </p>
+          </div>
+        </div>
+
+      <div class="travaux">
+        <img src="webagency_images/portfolio/02.jpg" alt="">
+        <div class="calque">
+          <p class="item">
+            <span class="titre">Portfolio item 2<br></span>Lorem ipsum dolor sit.
+        </p>
+        </div>
+      </div>
+
+      <div class="travaux">
+        <img src="webagency_images/portfolio/03.jpg" alt="">
+        <div class="calque">
+          <p class="item">
+            <span class="titre">Portfolio item 3<br></span>Lorem ipsum dolor sit.
+          </p>
+          </div>
+        </div>
+
+      <div class="travaux">
+        <img src="webagency_images/portfolio/04.jpg" alt="">
+        <div class="calque">
+          <p class="item">
+            <span class="titre">Portfolio item 4<br></span>Lorem ipsum dolor sit.
+          </p>
+          </div>
+        </div>
+
+      <div class="travaux">
+        <img src="webagency_images/portfolio/05.jpg" alt="">
+        <div class="calque">
+          <p class="item">
+          <span class="titre">Portfolio item 5<br></span>Lorem ipsum dolor sit.
+        </p>
+        </div>
+      </div>
+
+      <div class="travaux">
+        <img src="webagency_images/portfolio/06.jpg" alt="">
+        <div class="calque">
+          <p class="item">
+            <span class="titre">Portfolio item 6<br></span>Lorem ipsum dolor sit.
+          </p>
+        </div>
+      </div>
+
+      <div class="travaux">
+        <img src="webagency_images/portfolio/07.jpg" alt="">
+        <div class="calque">
+          <p class="item">
+            <span class="titre">Portfolio item 7<br></span>Lorem ipsum dolor sit.
+          </p>
+        </div>
+      </div>
+
+      <div class="travaux">
+        <img src="webagency_images/portfolio/08.jpg" alt="">
+        <div class="calque">
+          <p class="item">
+            <span class="titre">Portfolio item 8<br></span>Lorem ipsum dolor sit.
+          </p>
+        </div>
+      </div>
+
     </div>
     <!-- ************************************ -->
     </div>
@@ -108,6 +187,8 @@
     <div id="contact">
 
     <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d11050.261470957426!2d6.127334!3d46.179307!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1571658919724!5m2!1sfr!2sfr" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+    <div id="calqueMap"></div>
 
     <div id="formulaire">
 
