@@ -59,8 +59,14 @@ overflow: hidden;
   0%{
     transform: translateX(0);
   }
+  25%{
+    transform: translateX(-800px);
+  }
   50%{
     transform: translateX(-1600px);
+  }
+  75%{
+    transform: translateX(-800px);
   }
   100%{
     transform: translateX(0px);
@@ -106,6 +112,10 @@ overflow: hidden;
   text-align: center;
   background-color: #f4f4f4;
 }
+
+.projets p{
+  margin-bottom: 3%;
+}
 /* ******************** */
 
 .text{
@@ -127,12 +137,23 @@ overflow: hidden;
 
 }
 
+#menuSecondaire{
+  margin: 0 auto;
+  padding: 0 auto;
+  width: 25%;
+  border-radius: 5px 5px 5px 5px;
+  background-color: #e5e5e5;
+}
+
 #menuProjets {
   padding-top: 3%;
   padding-bottom: 5%;
 }
 
 #menuProjets li{
+  position: relative;
+  right: 6%;
+  padding: 1%;
   text-align: center;
   display: inline-block;
 }
@@ -148,33 +169,33 @@ overflow: hidden;
 }
 
 .travaux{
-  width: 25%;
-  float: left;
+  width: 20%;
+  display: inline-block;
+  /* float: left; */
 }
 
 
 .travaux img{
-  /* padding-top: 10%; */
-  margin: -15%;
+  padding: 5%;
   width: 75%;
+  height:150px;
 }
 
 .calque{
-  overflow: hidden;
+  display: none;
   position:relative;
-  bottom:8em;
+  bottom:10.6em;
   left: 12.5%;
   width: 75%;
-  height:177px;
-  /* background-color: rgba(0, 0, 0,0.5); */
+  height:150px;
+  background-color: rgba(0, 0, 0,0.5);
 }
 
-
-
 .calque:hover{
+  display: block;
   /* transition: 0.5s; */
   position: relative;
-  bottom:2em;
+  bottom:6.3em;
   left: 12.5%;
   width: 75%;
   height:80px;
@@ -186,7 +207,7 @@ overflow: hidden;
   margin-left: 5%;
   text-align: left;
   color: white;
-  display: none;
+  /* display: none; */
 }
 
 .calque:hover > .item{
@@ -250,6 +271,7 @@ overflow: hidden;
   width: 89%;
   margin: 1.5%;
   margin-left: 5%;
+  padding-left: 5px;
 }
 
 #formulaire textarea{
@@ -258,6 +280,7 @@ overflow: hidden;
   width: 88%;
   margin: 1%;
   margin-left: 5%;
+  padding-left: 5px;
 }
 
 #formulaire button{
