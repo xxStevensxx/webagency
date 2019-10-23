@@ -35,7 +35,7 @@ h2{
   left: 5%;
   width:13%;
   height:3px;
-    background-color: rgba(92, 173, 211);
+  background-color: rgba(92, 173, 211);
 }
 
 #slider{
@@ -45,28 +45,47 @@ overflow: hidden;
 }
 
 #slides{
-  /* mon ecran est egal au px fois le nombre de photo dans mon cas 2 */
-  width: calc(1600px*2);
-  animation: diapoImg 10s infinite;
+  /* mon div slides est egal au px fois le nombre de photo et de balise. Dans mon cas 4,  balise figure + photo *2 */
+  width: calc(1600px*4);
+  animation: diapoImg 20s infinite;
 }
 
 .slide{
   /* les images se mettrons a gauche et en ligne si la place dans l'ecran est suffisante */
   float: left;
+  margin: 0;
 }
 
 @keyframes diapoImg {
   0%{
     transform: translateX(0);
   }
-  25%{
+  10%{
+    transform: translateX(-200px);
+  }
+  20%{
+    transform: translateX(-400px);
+  }
+  30%{
+    transform: translateX(-600px);
+  }
+  40%{
     transform: translateX(-800px);
   }
   50%{
-    transform: translateX(-1600px);
+    transform: translateX(-1000px);
   }
-  75%{
-    transform: translateX(-800px);
+  60%{
+    transform: translateX(-1250px);
+  }
+  70%{
+    transform: translateX(-1350px);
+  }
+  80%{
+    transform: translateX(-1450px);
+  }
+  90%{
+    transform: translateX(-1600px);
   }
   100%{
     transform: translateX(0px);
@@ -107,7 +126,7 @@ overflow: hidden;
 
 .projets{
   width:100%;
-  height:845px;
+  height:750px;
   margin-top: 5%;
   text-align: center;
   background-color: #f4f4f4;
@@ -175,48 +194,232 @@ overflow: hidden;
 }
 
 
-.travaux img{
-  padding: 5%;
-  width: 75%;
+.travaux > figure > img{
+  width: 100%;
   height:150px;
 }
 
-.calque{
-  display: none;
-  position:relative;
-  bottom:10.6em;
-  left: 12.5%;
-  width: 75%;
-  height:150px;
+/* .calque{
+  position: absolute;
+  bottom: 5em;
+  display:inline-block;
+  width: 72%;
+  overflow: hidden;
   background-color: rgba(0, 0, 0,0.5);
+} */
+
+
+#calque1{
+  position: absolute;
+  left: 14.7%;
+  top:13%;
+  /* bottom: 5em; */
+  display:inline-block;
+  width: 13.5%;
+  height: 150px;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0);
 }
 
-.calque:hover{
-  display: block;
-  /* transition: 0.5s; */
-  position: relative;
-  bottom:6.3em;
-  left: 12.5%;
-  width: 75%;
-  height:80px;
+#calque1:hover{
+  position: absolute;
+  top: 28.3%;
+  height: 80px;
+  display: inline-block;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#calque2{
+  position: absolute;
+  left:33.7%;
+  top: 13%;
+  display:inline-block;
+  width: 13.5%;
+  height: 150px;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#calque2:hover{
+  position: absolute;
+  top: 28.3%;
+  height: 80px;
+  display: inline-block;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#calque3{
+  position: absolute;
+  left: 52.8%;
+  top: 13%;
+  display:inline-block;
+  width: 13.5%;
+  height: 150px;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#calque3:hover{
+  position: absolute;
+  top: 28.3%;
+  height: 80px;
+  display: inline-block;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#calque4{
+  position: absolute;
+  left: 71.9%;
+  top: 13.1%;
+  display:inline-block;
+  width: 13.5%;
+  height: 150px;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#calque4:hover{
+  position: absolute;
+  top: 28.3%;
+  height: 80px;
+  display: inline-block;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#calque5{
+  position: absolute;
+  top: 53.5%;
+  left: 14.6%;
+  display:inline-block;
+  width:13.5%;
+  height: 150px;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#calque5:hover{
+  position: absolute;
+  top: 68.3%;
+  height: 80px;
+  display: inline-block;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#calque6{
+  position: absolute;
+  top: 53.5%;
+  left: 33.7%;
+  display:inline-block;
+  width: 13.5%;
+  height: 150px;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#calque6:hover{
+  position: absolute;
+  top: 68.3%;
+  height: 80px;
+  display: inline-block;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#calque7{
+  position: absolute;
+  top: 53%;
+  left: 52.8%;
+  display:inline-block;
+  width: 13.5%;
+  height: 150px;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#calque7:hover{
+  position: absolute;
+  top: 68.3%;
+  height: 80px;
+  display: inline-block;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#calque8{
+  position: absolute;
+  top: 53.5%;
+  left: 71.8%;
+  /* display:inline-block; */
+  width: 13.5%;
+  height: 150px;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#calque8:hover{
+  position: absolute;
+  top: 68.3%;
+  height: 80px;
+  display: inline-block;
+  overflow: hidden;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
 .item{
-  font-weight: bold;
-  margin-left: 5%;
-  text-align: left;
-  color: white;
-  /* display: none; */
+  display: none;
 }
 
-.calque:hover > .item{
+#calque1:hover > .item{
   transition: 1s;
   display: block;
+  color: white;
 }
 
-.calque:hover > .titre{
+#calque2:hover > .item{
+  transition: 1s;
   display: block;
+  color: white;
+}
+
+#calque3:hover > .item{
+  transition: 1s;
+  display: block;
+  color: white;
+}
+
+#calque4:hover > .item{
+  transition: 1s;
+  display: block;
+  color: white;
+}
+
+#calque5:hover > .item{
+  transition: 1s;
+  display: block;
+  color: white;
+}
+
+#calque6:hover > .item{
+  transition: 1s;
+  display: block;
+  color: white;
+}
+
+#calque7:hover > .item{
+  transition: 1s;
+  display: block;
+  color: white;
+}
+
+#calque8:hover > .item{
+  transition: 1s;
+  display: block;
+  color: white;
 }
 
 #contact{
