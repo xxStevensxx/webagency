@@ -29,11 +29,10 @@ h2{
   margin: 3%;
 }
 
-.barreSuperieurMenu{
-  display: inline-block;
-  position:relative;
-  left: 5%;
-  width:13%;
+#sectionMenu li:hover .barreSuperieurMenu{
+  position:absolute;
+  top:1%;
+  width:4%;
   height:3px;
   background-color: rgba(92, 173, 211);
 }
@@ -119,6 +118,17 @@ overflow: hidden;
 .separateurInterne{
   width: 10%;
 }
+
+.rond{
+  position: relative;
+  bottom: 25px;
+  left: 49.2%;
+  height: 20px;
+  width: 20px;
+  background-color: #5cadd3;
+  border: solid 5px white;
+  border-radius: 50px 50px 50px 50px;
+}
 /* titre des 3 sections */
 .services{
   text-align: center;
@@ -164,23 +174,43 @@ overflow: hidden;
   background-color: #e5e5e5;
 }
 
+#menuSecondaire:hover{
+  border-radius: 5px 5px 5px 5px;
+  background-color: #e5e5e5;
+}
+
 #menuProjets {
-  padding-top: 3%;
-  padding-bottom: 5%;
+  width: 100%;
+  /* padding-top: 5%;
+  padding-bottom: 5%; */
 }
 
 #menuProjets li{
   position: relative;
-  right: 6%;
-  padding: 1%;
+  right: 11%;
+  padding: 2%;
   text-align: center;
   display: inline-block;
 }
 
 #menuProjets li:hover{
-  transition: 0.5s;
-  background-color: turquoise;
+  /* transition: 1s; */
+  background-color: #5cadd3;
 }
+
+#menuProjets li:hover > .formeHover{
+  /* transition:  1s; */
+  width  : 0;
+  height : 0;
+  border-left  : 10px solid transparent;
+  border-right : 10px solid transparent;
+  border-top   : 15px solid #468cad;
+  /* background-color: #5cadd3; */
+  position: absolute;
+  top: 95%;
+  left: 36%;
+}
+
 
 #travauxEffectue{
   position: relative;
@@ -208,19 +238,16 @@ overflow: hidden;
   background-color: rgba(0, 0, 0,0.5);
 } */
 
-
 #calque1{
   position: absolute;
   left: 14.7%;
   top:13%;
-  /* bottom: 5em; */
   display:inline-block;
   width: 13.5%;
   height: 150px;
   overflow: hidden;
   background-color: rgba(0, 0, 0, 0);
 }
-
 
 #calque1:hover{
   position: absolute;
@@ -379,49 +406,77 @@ overflow: hidden;
   transition: 1s;
   display: block;
   color: white;
+  text-align: left;
+  margin-left: 5%;
 }
 
 #calque2:hover > .item{
   transition: 1s;
   display: block;
   color: white;
+  text-align: left;
+  margin-left: 5%;
 }
 
 #calque3:hover > .item{
   transition: 1s;
   display: block;
   color: white;
+  text-align: left;
+  margin-left: 5%;
 }
 
 #calque4:hover > .item{
   transition: 1s;
   display: block;
   color: white;
+  text-align: left;
+  margin-left: 5%;
 }
 
 #calque5:hover > .item{
   transition: 1s;
   display: block;
   color: white;
+  text-align: left;
+  margin-left: 5%;
 }
 
 #calque6:hover > .item{
   transition: 1s;
   display: block;
   color: white;
+  text-align: left;
+  margin-left: 5%;
 }
 
 #calque7:hover > .item{
   transition: 1s;
   display: block;
   color: white;
+  text-align: left;
+  margin-left: 5%;
 }
 
 #calque8:hover > .item{
   transition: 1s;
   display: block;
   color: white;
+  text-align: left;
+  margin-left: 5%;
+  margin-left: 5%;
 }
+
+
+/* .svg{
+  border: 2px solid white;
+  background-color: #5cadd3;
+  border-radius: 150% 150% 150% 150%;
+  position: absolute;
+  top: 5%;
+  left: 25%;
+  width: 45%;
+} */
 
 #contact{
   position: relative;
