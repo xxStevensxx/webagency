@@ -129,6 +129,17 @@ overflow: hidden;
   border: solid 5px white;
   border-radius: 50px 50px 50px 50px;
 }
+
+.rondMenu{
+  position: relative;
+  top: 38px;
+  left: 9%;
+  height: 10px;
+  width: 10px;
+  background-color: #5cadd3;
+  border: solid 3px white;
+  border-radius: 50px 50px 50px 50px;
+}
 /* titre des 3 sections */
 .services{
   text-align: center;
@@ -154,7 +165,7 @@ overflow: hidden;
 .contenuService{
   padding: 3%;
   display: grid;
-  grid-template-columns: 2;
+  grid-template-columns: 2 ;
 }
 
 .contenuServicesGauche{
@@ -162,8 +173,123 @@ overflow: hidden;
 }
 
 .contenuServicesDroit{
+  /* margin-left: 5%; */
   grid-column-start: 2;
+}
 
+.fa-cubes {
+  border: 3px solid #e5e5e5;
+  border-radius: 100px 100px 100px 100px;
+  padding: 1.5%;
+  margin: 2%;
+  float: left;
+  color: #5cadd3;
+}
+
+.fa-chart-pie{
+  border: 3px solid #e5e5e5;
+  border-radius: 100px 100px 100px 100px;
+  padding: 1.5%;
+  margin: 2%;
+  float: left;
+  color: #5cadd3;
+}
+
+.fa-chart-line{
+  border: 3px solid #e5e5e5;
+  border-radius: 100px 100px 100px 100px;
+  padding: 1.5%;
+  margin: 2%;
+  float: left;
+  color: #5cadd3;
+}
+
+#calque1:hover > .fa-eye{
+  border-radius: 100px 100px 100px 100px;
+  border: 3px white solid;
+  color: white;
+  background-color: #5cadd3;
+  padding: 5%;
+  position: absolute;
+  left: 70%;
+  bottom: 80%;
+}
+
+#calque2:hover > .fa-eye{
+  border-radius: 100px 100px 100px 100px;
+  border: 3px white solid;
+  color: white;
+  background-color: #5cadd3;
+  padding: 5%;
+  position: absolute;
+  left: 70%;
+  bottom: 80%;
+}
+
+#calque3:hover > .fa-eye{
+  border-radius: 100px 100px 100px 100px;
+  border: 3px white solid;
+  color: white;
+  background-color: #5cadd3;
+  padding: 5%;
+  position: absolute;
+  left: 70%;
+  bottom: 80%;
+}
+
+#calque4:hover > .fa-eye{
+  border-radius: 100px 100px 100px 100px;
+  border: 3px white solid;
+  color: white;
+  background-color: #5cadd3;
+  padding: 5%;
+  position: absolute;
+  left: 70%;
+  bottom: 80%;
+}
+
+#calque5:hover > .fa-eye{
+  border-radius: 100px 100px 100px 100px;
+  border: 3px white solid;
+  color: white;
+  background-color: #5cadd3;
+  padding: 5%;
+  position: absolute;
+  left: 70%;
+  bottom: 80%;
+}
+
+#calque6:hover > .fa-eye{
+  border-radius: 100px 100px 100px 100px;
+  border: 3px white solid;
+  color: white;
+  background-color: #5cadd3;
+  padding: 5%;
+  position: absolute;
+  left: 70%;
+  bottom: 80%;
+}
+
+#calque7:hover > .fa-eye{
+  border-radius: 100px 100px 100px 100px;
+  border: 3px white solid;
+  color: white;
+  background-color: #5cadd3;
+  padding: 5%;
+  position: absolute;
+  left: 70%;
+  bottom: 80%;
+}
+
+ #calque8:hover > .fa-eye{
+   border-radius: 100px 100px 100px 100px;
+   border: 3px white solid;
+   color: white;
+   background-color: #5cadd3;
+   padding: 5%;
+   position: absolute;
+   left: 70%;
+   bottom: 80%;
 }
 
 #menuSecondaire{
@@ -229,16 +355,8 @@ overflow: hidden;
   height:150px;
 }
 
-/* .calque{
-  position: absolute;
-  bottom: 5em;
-  display:inline-block;
-  width: 72%;
-  overflow: hidden;
-  background-color: rgba(0, 0, 0,0.5);
-} */
-
 #calque1{
+  color: rgba(0, 0, 0, 0);
   position: absolute;
   left: 14.7%;
   top:13%;
@@ -259,6 +377,7 @@ overflow: hidden;
 }
 
 #calque2{
+  color: rgba(0, 0, 0, 0);
   position: absolute;
   left:33.7%;
   top: 13%;
@@ -279,6 +398,7 @@ overflow: hidden;
 }
 
 #calque3{
+  color: rgba(0, 0, 0, 0);
   position: absolute;
   left: 52.8%;
   top: 13%;
@@ -299,6 +419,7 @@ overflow: hidden;
 }
 
 #calque4{
+  color: rgba(0, 0, 0, 0);
   position: absolute;
   left: 71.9%;
   top: 13.1%;
@@ -319,6 +440,7 @@ overflow: hidden;
 }
 
 #calque5{
+  color: rgba(0, 0, 0, 0);
   position: absolute;
   top: 53.5%;
   left: 14.6%;
@@ -339,6 +461,7 @@ overflow: hidden;
 }
 
 #calque6{
+  color: rgba(0, 0, 0, 0);
   position: absolute;
   top: 53.5%;
   left: 33.7%;
@@ -359,6 +482,7 @@ overflow: hidden;
 }
 
 #calque7{
+  color: rgba(0, 0, 0, 0);
   position: absolute;
   top: 53%;
   left: 52.8%;
@@ -379,10 +503,10 @@ overflow: hidden;
 }
 
 #calque8{
+  color: rgba(0, 0, 0, 0);
   position: absolute;
   top: 53.5%;
   left: 71.8%;
-  /* display:inline-block; */
   width: 13.5%;
   height: 150px;
   overflow: hidden;
@@ -466,17 +590,6 @@ overflow: hidden;
   margin-left: 5%;
   margin-left: 5%;
 }
-
-
-/* .svg{
-  border: 2px solid white;
-  background-color: #5cadd3;
-  border-radius: 150% 150% 150% 150%;
-  position: absolute;
-  top: 5%;
-  left: 25%;
-  width: 45%;
-} */
 
 #contact{
   position: relative;
