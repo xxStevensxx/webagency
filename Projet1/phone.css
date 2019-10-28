@@ -1,0 +1,118 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  /* balise sans class */
+
+  h2{
+    font-size: 30px ;
+  }
+
+  #sectionMenu{
+    display: none;
+  }
+
+  #intro{
+    position: absolute;
+    top: 15%;
+  }
+
+  .separateurInterne{
+    width: 35%;
+  }
+
+  .rond{
+    position: relative;
+    left: 46.5%;
+  }
+
+.contenuService{
+  display: grid;
+  grid-template-rows: 2;
+  grid-template-columns: 0;
+}
+
+.contenuServicesGauche{
+  grid-row-start: 1;
+}
+
+/* .contenuServicesGauche > figure > img{
+  position: absolute;
+  left:100px;
+} */
+
+.contenuServicesDroit{
+  grid-row-start: 2;
+  margin-left: 5%;
+}
+
+/* .contenuServicesDroit > figure{
+  margin: 0 ;
+  padding: 0;
+} */
+
+#menuSecondaire{
+  width: 45%;
+}
+
+#travauxEffectue{
+  display: block;
+}
+
+.travaux{
+  display: block;
+}
+
+#calque1{
+  display: none;
+}
+
+#calque2{
+  display: none;
+}
+
+#calque3{
+  display: none;
+}
+
+#calque4{
+  display: none;
+}
+
+#calque5{
+  display: none;
+}
+
+#calque6{
+  display: none;
+}
+
+#calque7{
+  display: none;
+}
+
+#calque8{
+  display: none;
+}
+
+.travaux{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+.travaux > figure > img{
+  width: 75%;
+  height:400px;
+}
+
+#map{
+  position: relative;
+  top: 2850px;
+  height: 400px
+}
+
+#calqueMap{
+  top: 2875px;
+  height: 400px
+}
+
+}
