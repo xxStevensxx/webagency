@@ -20,8 +20,18 @@
 
   .rond{
     position: relative;
-    left: 46.5%;
+    left: 48.5%;
   }
+.rondMenu{
+  position: relative;
+  top: 50px;
+  left: 9%;
+  height: 15px;
+  width: 15px;
+  background-color: #5cadd3;
+  border: solid 3px white;
+  border-radius: 50px 50px 50px 50px;
+}
 
 .contenuService{
   display: grid;
@@ -54,6 +64,11 @@
 
 #travauxEffectue{
   display: block;
+}
+
+.projets{
+  height:3800px;
+
 }
 
 .travaux{
@@ -106,13 +121,34 @@
 
 #map{
   position: relative;
-  top: 2850px;
-  height: 400px
+  top: 5px;
+  height: 600px
 }
 
 #calqueMap{
-  top: 2875px;
-  height: 400px
+  top: 30px;
+  height: 600px
 }
+
+#formulaire{
+  position: absolute;
+  top: 75px;
+  left: 65%;
+  background-color: rgba(237, 243, 248, 0.5);
+  height: 500px;
+  width: 25%;
+  float: right;
+}
+
+#formulaire textarea{
+  border: 0.5px solid silver;
+  border-radius: 5px 5px 5px 5px;
+  width: 88%;
+  margin: 1%;
+  margin-left: 5%;
+  padding-left: 5px;
+}
+
+
 
 }
