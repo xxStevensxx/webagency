@@ -209,15 +209,14 @@ overflow: hidden;
 }
 
 #calque1:hover > .fa-eye{
-  display: block;
-   border-radius: 100px 100px 100px 100px;
+  border-radius: 100px 100px 100px 100px;
   border: 3px white solid;
   color: white;
   background-color: #5cadd3;
-  padding: 5%;
+  padding: 7%;
   position: absolute;
   left: 70%;
-  bottom: 80%;
+  bottom: 70%;
 }
 
 #calque2:hover > .fa-eye{
@@ -225,10 +224,10 @@ overflow: hidden;
   border: 3px white solid;
   color: white;
   background-color: #5cadd3;
-  padding: 5%;
+  padding: 7%;
   position: absolute;
   left: 70%;
-  bottom: 80%;
+  bottom: 70%;
 }
 
 #calque3:hover > .fa-eye{
@@ -236,10 +235,10 @@ overflow: hidden;
   border: 3px white solid;
   color: white;
   background-color: #5cadd3;
-  padding: 5%;
+  padding: 7%;
   position: absolute;
   left: 70%;
-  bottom: 80%;
+  bottom: 70%;
 }
 
 #calque4:hover > .fa-eye{
@@ -247,10 +246,10 @@ overflow: hidden;
   border: 3px white solid;
   color: white;
   background-color: #5cadd3;
-  padding: 5%;
+  padding: 7%;
   position: absolute;
   left: 70%;
-  bottom: 80%;
+  bottom: 70%;
 }
 
 #calque5:hover > .fa-eye{
@@ -258,10 +257,10 @@ overflow: hidden;
   border: 3px white solid;
   color: white;
   background-color: #5cadd3;
-  padding: 5%;
+  padding: 7%;
   position: absolute;
   left: 70%;
-  bottom: 80%;
+  bottom: 70%;
 }
 
 #calque6:hover > .fa-eye{
@@ -269,10 +268,10 @@ overflow: hidden;
   border: 3px white solid;
   color: white;
   background-color: #5cadd3;
-  padding: 5%;
+  padding: 7%;
   position: absolute;
   left: 70%;
-  bottom: 80%;
+  bottom: 70%;
 }
 
 #calque7:hover > .fa-eye{
@@ -280,10 +279,10 @@ overflow: hidden;
   border: 3px white solid;
   color: white;
   background-color: #5cadd3;
-  padding: 5%;
+  padding: 7%;
   position: absolute;
   left: 70%;
-  bottom: 80%;
+  bottom: 70%;
 }
 
  #calque8:hover > .fa-eye{
@@ -291,11 +290,11 @@ overflow: hidden;
    border: 3px white solid;
    color: white;
    background-color: #5cadd3;
-   padding: 5%;
+   padding: 7%;
    position: absolute;
    left: 70%;
-   bottom: 80%;
-}
+   bottom: 70%;
+  }
 
 #menuSecondaire{
   margin: 0 auto;
@@ -377,7 +376,7 @@ overflow: hidden;
   top: 28.3%;
   height: 80px;
   display: inline-block;
-  overflow: hidden;
+  overflow:visible;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -398,7 +397,7 @@ overflow: hidden;
   top: 28.3%;
   height: 80px;
   display: inline-block;
-  overflow: hidden;
+  overflow:visible;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -419,7 +418,7 @@ overflow: hidden;
   top: 28.3%;
   height: 80px;
   display: inline-block;
-  overflow: hidden;
+  overflow:visible;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -440,7 +439,7 @@ overflow: hidden;
   top: 28.3%;
   height: 80px;
   display: inline-block;
-  overflow: hidden;
+  overflow:visible;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -452,7 +451,7 @@ overflow: hidden;
   display:inline-block;
   width:13.5%;
   height: 150px;
-  overflow: hidden;
+  overflow:visible;
   background-color: rgba(0, 0, 0, 0);
 }
 
@@ -461,7 +460,7 @@ overflow: hidden;
   top: 68.3%;
   height: 80px;
   display: inline-block;
-  overflow: hidden;
+  overflow:visible;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -482,7 +481,7 @@ overflow: hidden;
   top: 68.3%;
   height: 80px;
   display: inline-block;
-  overflow: hidden;
+  overflow:visible;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -503,7 +502,7 @@ overflow: hidden;
   top: 68.3%;
   height: 80px;
   display: inline-block;
-  overflow: hidden;
+  overflow:visible;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -523,7 +522,7 @@ overflow: hidden;
   top: 68.3%;
   height: 80px;
   display: inline-block;
-  overflow: hidden;
+  overflow:visible;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
