@@ -10,6 +10,9 @@ h2{
 }
 /* ***************** */
 
+label{
+  display: none; 
+}
 .menu{
   display: grid;
   grid-template-columns: 50% 50%;

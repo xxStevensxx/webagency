@@ -10,7 +10,7 @@
     <link rel="icon" href="webagency_images/images/ico/logoNav.png">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/60ef5c0b87.js" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="script.js">
+    <script src="script.js">
 
     </script>
   </head>
@@ -79,17 +79,17 @@
           </figure>
         </div>
         <div class="contenuServicesDroit">
-          <i class="fas fa-chart-line fa-2x"></i>
+          <span class="fas fa-chart-line fa-2x"></span>
           <div class="rondMenu"></div>
           <h3>UX design</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quia voluptatum quidem magnam debitis porro.</p>
 
-          <i class="fas fa-cubes fa-2x"></i>
+          <span class="fas fa-cubes fa-2x"></span>
           <div class="rondMenu"></div>
           <h3>UI design</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto consectetur laboriosam accusantium similique vel totam.</p>
 
-          <i class="fas fa-chart-pie fa-2x"></i>
+          <span class="fas fa-chart-pie fa-2x"></span>
           <div class="rondMenu"></div>
           <h3>SEO</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla tenetur dignissimos delectus quia, at reiciendis?</p>
@@ -127,7 +127,7 @@
           <img src="webagency_images/portfolio/01.jpg" alt="">
         </figure>
         <div id="calque1">
-          <i class="far fa-eye"></i>
+          <span class="far fa-eye"></span>
           <p class="item">
             <span class="titre">Portfolio item 1<br></span>Lorem ipsum dolor sit.
           </p>
@@ -139,7 +139,7 @@
           <img src="webagency_images/portfolio/02.jpg" alt="">
         </figure>
         <div id="calque2">
-          <i class="far fa-eye"></i>
+          <span class="far fa-eye"></span>
           <p class="item">
             <span class="titre">Portfolio item 2<br></span>Lorem ipsum dolor sit.
         </p>
@@ -151,7 +151,7 @@
           <img src="webagency_images/portfolio/03.jpg" alt="">
         </figure>
         <div id="calque3">
-          <i class="far fa-eye"></i>
+          <span class="far fa-eye"></span>
           <p class="item">
             <span class="titre">Portfolio item 3<br></span>Lorem ipsum dolor sit.
           </p>
@@ -163,7 +163,7 @@
           <img src="webagency_images/portfolio/04.jpg" alt="">
         </figure>
         <div id="calque4">
-          <i class="far fa-eye"></i>
+          <span class="far fa-eye"></span>
           <p class="item">
             <span class="titre">Portfolio item 4<br></span>Lorem ipsum dolor sit.
           </p>
@@ -175,7 +175,7 @@
           <img src="webagency_images/portfolio/05.jpg" alt="">
         </figure>
         <div id="calque5">
-          <i class="far fa-eye"></i>
+          <span class="far fa-eye"></span>
           <p class="item">
           <span class="titre">Portfolio item 5<br></span>Lorem ipsum dolor sit.
         </p>
@@ -187,7 +187,7 @@
           <img src="webagency_images/portfolio/06.jpg" alt="">
         </figure>
         <div id="calque6">
-          <i class="far fa-eye"></i>
+          <span class="far fa-eye"></span>
           <p class="item">
             <span class="titre">Portfolio item 6<br></span>Lorem ipsum dolor sit.
           </p>
@@ -199,7 +199,7 @@
           <img src="webagency_images/portfolio/07.jpg" alt="">
         </figure>
         <div id="calque7">
-          <i class="far fa-eye"></i>
+          <span class="far fa-eye"></span>
           <p class="item">
             <span class="titre">Portfolio item 7<br></span>Lorem ipsum dolor sit.
           </p>
@@ -211,7 +211,7 @@
           <img src="webagency_images/portfolio/08.jpg" alt="">
         </figure>
         <div id="calque8">
-          <i class="far fa-eye"></i>
+          <span class="far fa-eye"></span>
           <p class="item">
             <span class="titre">Portfolio item 8<br></span>Lorem ipsum dolor sit.
           </p>
@@ -240,10 +240,14 @@
           <p>Tel : 01 02 03 04 05</p>
 
       <form action="index.html" method="post">
+        <label for="name">text</label>
             <input type="text" name="name" id="name" placeholder="Name"><br>
+          <label for="email">email</label>
             <input type="email" name="email" id="email" placeholder="E-mail"><br>
+          <label for="subject">sujet</label>
             <input type="text" name="subject" id="subject" placeholder="Subject"><br>
-            <textarea name="text" rows="8" cols="80" placeholder="Message"></textarea><br>
+          <label for="text">txt</label>
+            <textarea id="text" name="text" rows="8" cols="80" placeholder="Message"></textarea><br>
             <button type="submit" name="SendMessage">Send Message</button>
       </form>
     </div>
