@@ -11,8 +11,9 @@ h2{
 /* ***************** */
 
 label{
-  display: none; 
+  display: none;
 }
+
 .menu{
   display: grid;
   grid-template-columns: 50% 50%;
@@ -25,9 +26,12 @@ label{
 
 #nav{
   grid-column-start: 2;
+  margin-left: 30%;
+  margin-top: 2%;
 }
 
 #sectionMenu li{
+  padding: auto;
   display: inline-block;
   margin: 3%;
 }
@@ -329,6 +333,7 @@ overflow: hidden;
 #menuProjets li:hover{
   /* transition: 1s; */
   background-color: #5cadd3;
+  color: white;
 }
 
 #menuProjets li:hover > .formeHover{
@@ -622,13 +627,14 @@ overflow: hidden;
   position: absolute;
   bottom: 8%;
   left: 65%;
-  background-color: rgba(237, 243, 248, 0.5);
+  background-color: rgba(237, 243, 248, 0.7);
   height: 500px;
   width: 25%;
   float: right;
 }
 
 #formulaire h2{
+  margin-bottom: 0;
   margin-left: 5%;
 }
 
@@ -648,6 +654,7 @@ overflow: hidden;
   border: 0.5px solid silver;
   border-radius: 5px 5px 5px 5px;
   width: 89%;
+  height: 25px;
   margin: 1.5%;
   margin-left: 5%;
   padding-left: 5px;

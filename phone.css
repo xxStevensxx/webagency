@@ -47,10 +47,10 @@
 
 .rondMenu{
   position: relative;
-  top: 75px;
-  left: 15%;
-  height: 20px;
-  width: 20px;
+  top: 65px;
+  left: 13%;
+  height: 22px;
+  width: 22px;
   background-color: #5cadd3;
   border: solid 3px white;
   border-radius: 50px 50px 50px 50px;
@@ -79,6 +79,33 @@
 .contenuServicesDroit i{
   /* border-radius: 100% 100% 100% 100%; */
   padding: 5%;
+}
+
+.fa-cubes {
+  border: 3px solid #e5e5e5;
+  border-radius: 250px 250px 250px 250px;
+  padding: 4%;
+  margin: 2%;
+  float: left;
+  color: #5cadd3;
+}
+
+.fa-chart-pie{
+  border: 3px solid #e5e5e5;
+  border-radius: 250px 250px 250px 250px;
+  padding: 4%;
+  /* margin: 5%; */
+  float: left;
+  color: #5cadd3;
+}
+
+.fa-chart-line{
+  border: 3px solid #e5e5e5;
+  border-radius: 250px 250px 250px 250px;
+  padding: 4%;
+  margin: 2%;
+  float: left;
+  color: #5cadd3;
 }
 
 #menuSecondaire{
@@ -112,35 +139,141 @@
 }
 
 #calque1{
-  display: none;
+  /* background-color: rgba(255, 0, 0, 0.5); */
+  top: 1%;
+  left: 18%;
+  width: 64%;
+  height: 12%;
+}
+
+#calque1:hover{
+  font-size: 35px;
+  left: 18%;
+  top: 8.7%;
+  height: 150px;
+  width:64%;
+  display: inline-block;
+  overflow:visible;
 }
 
 #calque2{
-  display: none;
+  top: 13.6%;
+  left: 18%;
+  width: 64%;
+  height: 11.7%;
 }
 
+#calque2:hover{
+  font-size: 35px;
+  left: 18%;
+  top: 20.8%;
+  height: 150px;
+  width:64%;
+  display: inline-block;
+  overflow:visible;
+}
+
+
 #calque3{
-  display: none;
+  top: 25.8%;
+  left: 18%;
+  width: 64%;
+  height: 11.7%;
+}
+
+#calque3:hover{
+  font-size: 35px;
+  left: 18%;
+  top: 33%;
+  height: 150px;
+  width:64%;
+  display: inline-block;
+  overflow:visible;
 }
 
 #calque4{
-  display: none;
+  top: 38%;
+  left: 18%;
+  width: 64%;
+  height: 11.7%;
+}
+
+#calque4:hover{
+  font-size: 35px;
+  left: 18%;
+  top: 45.2%;
+  height: 150px;
+  width:64%;
+  display: inline-block;
+  overflow:visible;
 }
 
 #calque5{
-  display: none;
+  top: 50.1%;
+  left: 18%;
+  width: 64%;
+  height: 11.7%;
+}
+
+#calque5:hover{
+  font-size: 35px;
+  left: 18%;
+  top: 57.5%;
+  height: 150px;
+  width:64%;
+  display: inline-block;
+  overflow:visible;
 }
 
 #calque6{
-  display: none;
+  top: 62%;
+  left: 18%;
+  width: 64%;
+  height: 12%;
+}
+
+#calque6:hover{
+  font-size: 35px;
+  left: 18%;
+  top: 69.8%;
+  height: 150px;
+  width:64%;
+  display: inline-block;
+  overflow:visible;
 }
 
 #calque7{
-  display: none;
+  top: 74.5%;
+  left: 18%;
+  width: 64%;
+  height: 12%;
+}
+
+#calque7:hover{
+  font-size: 35px;
+  left: 18%;
+  top: 82%;
+  height: 150px;
+  width:64%;
+  display: inline-block;
+  overflow:visible;
 }
 
 #calque8{
-  display: none;
+  top: 87%;
+  left: 18%;
+  width: 64%;
+  height: 12%;
+}
+
+#calque8:hover{
+  font-size: 35px;
+  left: 18%;
+  top: 94.3%;
+  height: 150px;
+  width:64%;
+  display: inline-block;
+  overflow:visible;
 }
 
 .travaux{
@@ -188,6 +321,13 @@
 
 #formulaire button{
   font-size: 30px;
+}
+
+#formulaire input{
+  height: 35px;
+  margin: 1.5%;
+  margin-left: 5%;
+  padding-left: 5px;
 }
 
 }
