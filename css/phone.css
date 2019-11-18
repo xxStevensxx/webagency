@@ -1,0 +1,333 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  /* balise sans class */
+
+  label{
+    display: none;
+  }
+
+  h2{
+    /* text-align: center; */
+    font-size: 60px;
+  }
+
+  .projets h2{
+    font-size: 60px;
+  }
+
+  .text{
+    padding-bottom: 2%;
+    font-size: 32px;
+  }
+
+  .services p{
+    font-size: 12px;
+  }
+
+  #slider{
+    display: none;
+  }
+
+  #sectionMenu{
+    display: none;
+  }
+
+  #intro{
+    position: absolute;
+    top: 15%;
+  }
+
+  .separateurInterne{
+    width: 35%;
+  }
+
+  .rond{
+    position: relative;
+    left: 48.5%;
+  }
+
+.rondMenu{
+  position: relative;
+  top: 65px;
+  left: 13%;
+  height: 22px;
+  width: 22px;
+  background-color: #5cadd3;
+  border: solid 3px white;
+  border-radius: 50px 50px 50px 50px;
+}
+
+.contenuService{
+  display: grid;
+  grid-template-rows: 2;
+  grid-template-columns: 0;
+}
+
+.contenuServicesGauche{
+  grid-row-start: 1;
+}
+
+.contenuServicesGauche > figure > img{
+  position: relative;
+  left:150px;
+}
+
+.contenuServicesDroit{
+  grid-row-start: 2;
+  margin-left: 5%;
+}
+
+.contenuServicesDroit i{
+  /* border-radius: 100% 100% 100% 100%; */
+  padding: 5%;
+}
+
+.fa-cubes {
+  border: 3px solid #e5e5e5;
+  border-radius: 250px 250px 250px 250px;
+  padding: 4%;
+  margin: 2%;
+  float: left;
+  color: #5cadd3;
+}
+
+.fa-chart-pie{
+  border: 3px solid #e5e5e5;
+  border-radius: 250px 250px 250px 250px;
+  padding: 4%;
+  /* margin: 5%; */
+  float: left;
+  color: #5cadd3;
+}
+
+.fa-chart-line{
+  border: 3px solid #e5e5e5;
+  border-radius: 250px 250px 250px 250px;
+  padding: 4%;
+  margin: 2%;
+  float: left;
+  color: #5cadd3;
+}
+
+#menuSecondaire{
+  font-size: 25px;
+  width: 75%;
+}
+
+#menuSecondaire ul{
+  position: relative;
+  left: 5%;
+}
+
+#menuProjets li:hover > .formeHover{
+  top: 95%;
+  left: 42%;
+}
+
+
+#travauxEffectue{
+  display: block;
+}
+
+.projets{
+  padding-top: 2%;
+  height:3950px;
+
+}
+
+.travaux{
+  display: block;
+}
+
+#calque1{
+  /* background-color: rgba(255, 0, 0, 0.5); */
+  top: 1%;
+  left: 18%;
+  width: 64%;
+  height: 12%;
+}
+
+#calque1:hover{
+  font-size: 35px;
+  left: 18%;
+  top: 8.7%;
+  height: 150px;
+  width:64%;
+  display: inline-block;
+  overflow:visible;
+}
+
+#calque2{
+  top: 13.6%;
+  left: 18%;
+  width: 64%;
+  height: 11.7%;
+}
+
+#calque2:hover{
+  font-size: 35px;
+  left: 18%;
+  top: 20.8%;
+  height: 150px;
+  width:64%;
+  display: inline-block;
+  overflow:visible;
+}
+
+
+#calque3{
+  top: 25.8%;
+  left: 18%;
+  width: 64%;
+  height: 11.7%;
+}
+
+#calque3:hover{
+  font-size: 35px;
+  left: 18%;
+  top: 33%;
+  height: 150px;
+  width:64%;
+  display: inline-block;
+  overflow:visible;
+}
+
+#calque4{
+  top: 38%;
+  left: 18%;
+  width: 64%;
+  height: 11.7%;
+}
+
+#calque4:hover{
+  font-size: 35px;
+  left: 18%;
+  top: 45.2%;
+  height: 150px;
+  width:64%;
+  display: inline-block;
+  overflow:visible;
+}
+
+#calque5{
+  top: 50.1%;
+  left: 18%;
+  width: 64%;
+  height: 11.7%;
+}
+
+#calque5:hover{
+  font-size: 35px;
+  left: 18%;
+  top: 57.5%;
+  height: 150px;
+  width:64%;
+  display: inline-block;
+  overflow:visible;
+}
+
+#calque6{
+  top: 62%;
+  left: 18%;
+  width: 64%;
+  height: 12%;
+}
+
+#calque6:hover{
+  font-size: 35px;
+  left: 18%;
+  top: 69.8%;
+  height: 150px;
+  width:64%;
+  display: inline-block;
+  overflow:visible;
+}
+
+#calque7{
+  top: 74.5%;
+  left: 18%;
+  width: 64%;
+  height: 12%;
+}
+
+#calque7:hover{
+  font-size: 35px;
+  left: 18%;
+  top: 82%;
+  height: 150px;
+  width:64%;
+  display: inline-block;
+  overflow:visible;
+}
+
+#calque8{
+  top: 87%;
+  left: 18%;
+  width: 64%;
+  height: 12%;
+}
+
+#calque8:hover{
+  font-size: 35px;
+  left: 18%;
+  top: 94.3%;
+  height: 150px;
+  width:64%;
+  display: inline-block;
+  overflow:visible;
+}
+
+.travaux{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+.travaux > figure > img{
+  width: 75%;
+  height:400px;
+}
+
+#map{
+  position: relative;
+  top: 5px;
+  height: 600px
+}
+
+#calqueMap{
+  top: 30px;
+  height: 600px
+}
+
+#formulaire{
+  font-size: 30px;
+  position: absolute;
+  top: 650px;
+  left: 0.1%;
+  background-color: #f5f5f5;
+  height: 700px;
+  width: 100%;
+  float: right;
+}
+
+#formulaire textarea{
+  border: 0.5px solid silver;
+  border-radius: 5px 5px 5px 5px;
+  width: 88%;
+  margin: 1%;
+  margin-left: 5%;
+  padding-left: 5px;
+}
+
+#formulaire button{
+  font-size: 30px;
+}
+
+#formulaire input{
+  height: 35px;
+  margin: 1.5%;
+  margin-left: 5%;
+  padding-left: 5px;
+}
+
+}
