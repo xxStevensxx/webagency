@@ -61,18 +61,25 @@
   }
 
   .projets{
-    height:1100px;
+    height:1300px;
 
   }
 
   #menuProjets li{
+    padding: 2.5%;
     right: 7%;
+    height: 21px;
   }
 
   .travaux{
     width: 40%;
     display: inline-block;
     /* float: left; */
+  }
+
+  .travaux >figure > img{
+    width: 300px;
+    height: 200px;
   }
 
   #calque1{
@@ -85,8 +92,8 @@
     position: absolute;
     left: 16.3%;
     top: 16.7%;
-    height: 60px;
-    width: 29.5%;
+    height: 75px;
+    width: 31%;
     display: inline-block;
     overflow:visible;
     background-color: rgba(0, 0, 0, 0.5);
@@ -103,8 +110,8 @@
     position: absolute;
     left: 54.2%;
     top: 16.7%;
-    height: 60px;
-    width: 29.5%;
+    height: 75px;
+    width: 31%;
     display: inline-block;
     overflow:visible;
     background-color: rgba(0, 0, 0, 0.5);
@@ -120,8 +127,8 @@
     position: absolute;
     left: 16.3%;
     top: 40%;
-    height: 60px;
-    width: 29.5%;
+    height: 75px;
+    width: 31%;
     display: inline-block;
     overflow:visible;
     background-color: rgba(0, 0, 0, 0.5);
@@ -137,8 +144,8 @@
    position: absolute;
    left: 54.2%;
    top: 40%;
-   height: 60px;
-   width: 29.5%;
+   height: 75px;
+   width: 31%;
    display: inline-block;
    overflow:visible;
  }
@@ -152,9 +159,9 @@
   #calque5:hover{
     position: absolute;
     left: 16.3%;
-    top: 63%;
-    height: 60px;
-    width: 29.5%;
+    top: 64%;
+    height: 75px;
+    width: 31%;
     display: inline-block;
     overflow:visible;
   }
@@ -168,9 +175,9 @@
   #calque6:hover{
     position: absolute;
     left: 54.2%;
-    top: 63%;
-    height: 60px;
-    width: 29.5%;
+    top: 64%;
+    height: 75px;
+    width: 31%;
     display: inline-block;
     overflow:visible;
   }
@@ -184,9 +191,9 @@
   #calque7:hover{
     position: absolute;
     left: 16.3%;
-    top: 86.2%;
-    height: 60px;
-    width: 29.5%;
+    top: 87.2%;
+    height: 75px;
+    width: 31%;
     display: inline-block;
     overflow:visible;
   }
@@ -200,21 +207,21 @@
   #calque8:hover{
     position: absolute;
     left: 54.2%;
-    top: 86.2%;
-    height: 60px;
-    width: 29.5%;
+    top: 87.2%;
+    height: 75px;
+    width: 31%;
     display: inline-block;
     overflow:visible;
   }
 
   #map{
     position: relative;
-    top: 5px;
+    top: 10px;
     height: 600px
   }
 
   #calqueMap{
-    top: 30px;
+    top: 40px;
     height: 600px
   }
 
@@ -223,7 +230,7 @@
     top: 650px;
     left: 0.1%;
     background-color: #f5f5f5;
-    height: 500px;
+    height: 650px;
     width: 100%;
     float: right;
   }

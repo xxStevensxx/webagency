@@ -111,11 +111,16 @@
 #menuSecondaire{
   font-size: 25px;
   width: 75%;
+  height: 2%;
 }
 
 #menuSecondaire ul{
   position: relative;
   left: 5%;
+}
+
+#menuSecondaire li{
+  height: 47px;
 }
 
 #menuProjets li:hover > .formeHover{
@@ -130,7 +135,7 @@
 
 .projets{
   padding-top: 2%;
-  height:3950px;
+  height:4275px;
 
 }
 
