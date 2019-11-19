@@ -1,0 +1,315 @@
+@media only screen and (min-width : 2105px) {
+/* Styles pour cette Media Queries */
+*{
+}
+
+p{
+  font-size: 30px;
+}
+
+h2{
+  font-size: 50px;
+}
+
+#sectionMenu li{
+  font-size: 25px;
+
+}
+
+.fa-cubes {
+  position: relative;
+  border: 3px solid #e5e5e5;
+  border-radius: 100px 100px 100px 100px;
+  padding: 2%;
+  /* margin: 2%; */
+  /* float: left; */
+  color: #5cadd3;
+  /* padding: 0 auto; */
+  margin: 0 auto;
+  top: 7%;
+  left: -5%;
+}
+
+.fa-chart-pie{
+  position: relative;
+  border: 3px solid #e5e5e5;
+  border-radius: 100px 100px 100px 100px;
+  padding: 2%;
+  /* margin: 2%; */
+  /* float: left; */
+  color: #5cadd3;
+  /* padding: 0 auto; */
+  margin: 0 auto;
+  top: 8%;
+  left: -5%;
+}
+
+.fa-chart-line{
+  position: relative;
+  border: 3px solid #e5e5e5;
+  border-radius: 100px 100px 100px 100px;
+  padding: 2%;
+  /* margin: 2%; */
+  /* float: left; */
+  color: #5cadd3;
+  /* padding: 0 auto; */
+  margin: 0 auto;
+  top: 8%;
+  left: -5%;
+}
+
+.rondMenu{
+  padding: 0 auto;
+  margin: 0 auto;
+  width: 20px;
+  height: 20px;
+  top: 13.5%;
+  left: -48.7%;
+}
+
+.contenuServicesDroit p{
+  text-align: left;
+  width: 100%;
+  position: relative;
+  left: 5%;
+}
+
+.contenuServicesDroit > h3{
+  position: relative;
+  font-size: 30px;
+}
+.contenuServicesGauche > figure > img{
+  position : relative;
+  top: 150px;
+}
+
+.projets{
+  width:100%;
+  height:1200px;
+  margin-top: 5%;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+
+#menuSecondaire{
+  height: 75px;
+  width: 600px;
+}
+
+#menuProjets{
+  font-size: 25px;
+}
+
+#menuProjets li{
+  right: 7%;
+}
+
+#menuProjets li:hover{
+  height: 1.6em;
+}
+
+#menuProjets li:hover > .formeHover{
+  /* transition:  1s; */
+  width  : 0;
+  height : 0;
+  border-left  : 18px solid transparent;
+  border-right : 18px solid transparent;
+  border-top   : 23px solid #468cad;
+  left: 36%;
+}
+
+.travaux > figure{
+  margin: 0;
+  padding: 3%;
+}
+
+.travaux > figure > img{
+  width: 100%;
+  height:100%;
+}
+
+#calque1{
+  color: rgba(0, 0, 0, 0);
+  position: absolute;
+  left: 12.5%;
+  top:11%;
+  display:inline-block;
+  width: 17.8%;
+  height: 37%;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#calque1:hover{
+  position: absolute;
+  top: 32%;
+  height: 130px;
+  display: inline-block;
+  overflow:visible;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#calque2{
+  color: rgba(0, 0, 0, 0);
+  position: absolute;
+  left:31.6%;
+  top: 11.4%;
+  display:inline-block;
+  width: 17.7%;
+  height: 37%;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#calque2:hover{
+  position: absolute;
+  top: 32%;
+  height: 130px;
+  display: inline-block;
+  overflow:visible;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#calque3{
+  color: rgba(0, 0, 0, 0);
+  position: absolute;
+  left: 50.7%;
+  top: 11%;
+  display:inline-block;
+  width: 17.7%;
+  height: 37%;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#calque3:hover{
+  position: absolute;
+  top: 32%;
+  height: 130px;
+  display: inline-block;
+  overflow:visible;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#calque4{
+  color: rgba(0, 0, 0, 0);
+  position: absolute;
+  left: 69.7%;
+  top: 11%;
+  display:inline-block;
+  width: 17.7%;
+  height: 37%;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#calque4:hover{
+  position: absolute;
+  top: 32%;
+  height: 130px;
+  display: inline-block;
+  overflow:visible;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#calque5{
+  color: rgba(0, 0, 0, 0);
+  position: absolute;
+  top: 52%;
+  left: 12.5%;
+  display:inline-block;
+  width:17.7%;
+  height: 37%;
+  overflow:visible;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#calque5:hover{
+  position: absolute;
+  top: 72%;
+  height: 130px;
+  display: inline-block;
+  overflow:visible;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#calque6{
+  color: rgba(0, 0, 0, 0);
+  position: absolute;
+  top: 52%;
+  left: 31.6%;
+  display:inline-block;
+  width: 17.7%;
+  height: 37%;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#calque6:hover{
+  position: absolute;
+  top: 72%;
+  height: 130px;
+  display: inline-block;
+  overflow:visible;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#calque7{
+  color: rgba(0, 0, 0, 0);
+  position: absolute;
+  top: 52%;
+  left: 50.7%;
+  display:inline-block;
+  width: 17.7%;
+  height: 37%;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#calque7:hover{
+  position: absolute;
+  top: 72%;
+  height: 130px;
+  display: inline-block;
+  overflow:visible;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#calque8{
+  color: rgba(0, 0, 0, 0);
+  position: absolute;
+  top: 52%;
+  left: 69.7%;
+  width: 17.7%;
+  height: 37%;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#calque8:hover{
+  position: absolute;
+  top: 72%;
+  height: 130px;
+  display: inline-block;
+  overflow:visible;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#formulaire{
+  height: 635px;
+}
+
+#map{
+  padding-top: 2%;
+  width: 100%;
+  height: 750px;
+}
+
+#calqueMap{
+  top: 6%;
+  width: 100%;
+  height: 750px;
+}
+
+}
