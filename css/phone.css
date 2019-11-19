@@ -123,9 +123,18 @@
   height: 47px;
 }
 
+
 #menuProjets li:hover > .formeHover{
+  /* transition:  1s; */
+  width  : 0;
+  height : 0;
+  border-left  : 20px solid transparent;
+  border-right : 20px solid transparent;
+  border-top   : 25px solid #468cad;
+  /* background-color: #5cadd3; */
+  position: absolute;
   top: 95%;
-  left: 42%;
+  left: 36%;
 }
 
 
