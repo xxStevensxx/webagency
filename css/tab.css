@@ -11,13 +11,13 @@
   }
 
   #sectionMenu li:hover .barreSuperieurMenu{
-    width:7%;
+    width:8.5%;
   }
 
   #intro{
     color: white;
-    position:absolute;
-    bottom:0%;
+    position:relative;
+    bottom:375px;
     left: 10%;
   }
 
@@ -28,7 +28,7 @@
   .rondMenu{
     width: 15px;
     height: 15px;
-    top: 7%;
+    top: 8.5%;
     left: 8%;
   }
 

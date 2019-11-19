@@ -17,7 +17,7 @@ label{
 .menu{
   background-color: white;
   position: sticky;
-  top: 5px;
+  top: 0.1px;
   z-index: 99;
   display: grid;
   grid-template-columns: 50% 50%;
@@ -26,12 +26,13 @@ label{
 #logoEntreprise{
   grid-column-start: 1;
   margin: 3%;
+  margin-left: 15%;
 }
 
 #nav{
+  margin-left: 35%;
   grid-column-start: 2;
-  margin-left: 30%;
-  margin-top: 2%;
+  margin-top: 1.5%;
 }
 
 #sectionMenu li{
@@ -42,14 +43,16 @@ label{
 
 #sectionMenu li:hover .barreSuperieurMenu{
   position:absolute;
+  margin-left: -1.2%;
   top:1%;
-  width:4%;
+  width:6%;
   height:3px;
   background-color: rgba(92, 173, 211);
 }
 
 #slider{
 /* la largeur de cette div est egale a la taille de ma photo et le overflow condense toutes les images dans une seul */
+height: 575px;
 width: 100%;
 overflow: hidden;
 }
@@ -103,9 +106,10 @@ overflow: hidden;
 }
 
 #intro{
+  z-index: 98;
   color: white;
-  position:absolute;
-  bottom:28%;
+  position: relative;
+  bottom: 375px;
   left: 10%;
 }
 
