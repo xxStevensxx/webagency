@@ -109,7 +109,7 @@ overflow: hidden;
   width: 150px;
   height: 150px;
   position: relative;
-  left: 98%;
+  left: 98.5%;
   bottom: 275px;
   color: white;
   z-index: 10;
@@ -131,7 +131,7 @@ overflow: hidden;
 #calqueD > span{
 position: relative;
 bottom: 533px;
-left: 50%;
+left: 40%;
 color: white;
 }
 
@@ -139,7 +139,7 @@ color: white;
   width: 150px;
   height: 150px;
   position: relative;
-  left: 0.5%;
+  left: 0.6%;
   bottom: 275px;
   color: white;
   z-index: 10;
@@ -148,7 +148,7 @@ color: white;
 #calqueG{
   position: relative;
   top: 255%;
-  left: -5%;
+  left: -10%;
   border-radius: 0px 150px 150px 0px;
   height: 75px;
   width: 50px;
@@ -159,7 +159,7 @@ color: white;
 #calqueG > span{
 position: relative;
 bottom: 383px;
-left: 15%;
+left: 25%;
 color: white;
 }
 
